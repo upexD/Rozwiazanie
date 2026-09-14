@@ -1,0 +1,1 @@
+#exec(open(r"C:\Users\micha\Documents\GitHub\Rozwiazanie\test", encoding="utf-8").read())
