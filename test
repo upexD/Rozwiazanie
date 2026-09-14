@@ -1,0 +1,9 @@
+from collections import Counter
+
+classes = Counter(
+    obj.is_a()
+    for obj in ifc.by_type("IfcProduct")
+)
+
+for cls, count in sorted(classes.items()):
+    print(f"{cls}: {count}")
